@@ -1,9 +1,10 @@
-# 🧩 Day 1: Two Sum
+# 🧩 Problem 1: Two Sum
 
 - **Platform**: [LeetCode #1](https://leetcode.com/problems/two-sum/)
 - **Difficulty**: `🟢 Easy`
 - **Topics**: `Array`, `Hash Table`
-- **Solution File**: [`main.js`](file:///D:/EveryDay/Learn-Everything-Problem-Solving/Day%201%20-%20Two%20Sum/main.js)
+- **Solution File**: [`main.js`](./main.js)
+- **Navigation**: [🏠 Problem Index](../Readme.md) | [Next Problem: Palindrome Number ➡️](../2%20-%20Palindrome%20Number/README.md)
 
 ---
 
@@ -88,7 +89,7 @@ function twoSumBruteForce(nums, target) {
 
 #### Complexity Analysis
 - **Time Complexity**: $\mathcal{O}(n^2)$ — Two nested loops iterate over the array of length $n$.
-- **Space Complexity**: $\mathcal{O}(1)$ — No additional data structures are used.
+- **Space Complexity**: $\mathcal{O}(1)$ — No additional auxiliary memory is allocated.
 
 ---
 
@@ -149,10 +150,15 @@ function twoSum(nums, target) {
 
 ## 💻 How to Run
 
-To run the local solution:
+Run the solution directly using Node.js:
 
 ```bash
-node "Day 1 - Two Sum/main.js"
+# From workspace root
+node "1 - Two Sum/main.js"
+
+# Or navigate into the folder
+cd "1 - Two Sum"
+node main.js
 ```
 
 ---
@@ -161,3 +167,10 @@ node "Day 1 - Two Sum/main.js"
 
 1. **Hash Maps Trade Space for Time**: Moving from $\mathcal{O}(n^2)$ to $\mathcal{O}(n)$ by using an $\mathcal{O}(n)$ hash map is one of the most common optimization patterns in array problems.
 2. **Complement Lookup Pattern**: Storing `target - current` simplifies pairwise sum checks to instant lookups.
+
+---
+
+## 🧭 Navigation
+
+- [🏠 Repository Index](../Readme.md)
+- [Next Problem: Palindrome Number ➡️](../2%20-%20Palindrome%20Number/README.md)

@@ -17,8 +17,11 @@ Welcome to the **Learn Everything: Problem Solving** repository! This project se
 
 ```text
 Learn-Everything-Problem-Solving/
-├── Day 1 - Two Sum/
+├── 1 - Two Sum/
 │   ├── Readme.md          # Problem explanation, intuition, approaches & complexity
+│   └── main.js            # JavaScript solution implementation
+├── 2 - Palindrome Number/
+│   ├── README.md          # Problem explanation, intuition, approaches & complexity
 │   └── main.js            # JavaScript solution implementation
 ├── LICENSE                # MIT License
 └── Readme.md              # Main repository index & progress tracker
@@ -28,9 +31,10 @@ Learn-Everything-Problem-Solving/
 
 ## 📊 Progress Tracker
 
-| Day | Problem | Platform | Difficulty | Solutions | Key Patterns / Topics |
+| # | Problem | Platform | Difficulty | Solutions | Key Patterns / Topics |
 | :---: | :--- | :---: | :---: | :---: | :--- |
-| **01** | [Two Sum](file:///D:/EveryDay/Learn-Everything-Problem-Solving/Day%201%20-%20Two%20Sum/Readme.md) | [LeetCode #1](https://leetcode.com/problems/two-sum/) | `🟢 Easy` | [JavaScript](file:///D:/EveryDay/Learn-Everything-Problem-Solving/Day%201%20-%20Two%20Sum/main.js) | Array, Hash Table, Complement Pattern |
+| **01** | [Two Sum](./1%20-%20Two%20Sum/Readme.md) | [LeetCode #1](https://leetcode.com/problems/two-sum/) | `🟢 Easy` | [JavaScript](./1%20-%20Two%20Sum/main.js) | Array, Hash Table, Complement Lookup |
+| **02** | [Palindrome Number](./2%20-%20Palindrome%20Number/README.md) | [LeetCode #9](https://leetcode.com/problems/palindrome-number/) | `🟢 Easy` | [JavaScript](./2%20-%20Palindrome%20Number/main.js) | Math, Revert Half Number, Modulo / Division |
 
 *More daily solutions are added progressively.*
 
@@ -40,12 +44,13 @@ Learn-Everything-Problem-Solving/
 
 1. **Arrays & Hashing**: Two Sum, Contains Duplicate, Anagrams, Group Anagrams, Top K Frequent Elements
 2. **Two Pointers & Sliding Window**: Two Sum II, 3Sum, Container With Most Water, Trapping Rain Water, Best Time to Buy and Sell Stock
-3. **Stack & Queue**: Valid Parentheses, Min Stack, Daily Temperatures, Evaluate Reverse Polish Notation
-4. **Binary Search**: Binary Search, Search a 2D Matrix, Find Minimum in Rotated Sorted Array
-5. **Linked List**: Reverse Linked List, Merge Two Sorted Lists, Reorder List, Remove Nth Node
-6. **Trees & Graphs**: Invert Binary Tree, Maximum Depth, Level Order Traversal, Number of Islands, Clone Graph
-7. **Dynamic Programming**: Climbing Stairs, Coin Change, Longest Increasing Subsequence, 0/1 Knapsack
-8. **Greedy & Backtracking**: Jump Game, Gas Station, Subsets, Permutations
+3. **Math & Number Theory**: Palindrome Number, Reverse Integer, Roman to Integer, Pow(x, n), Sqrt(x)
+4. **Stack & Queue**: Valid Parentheses, Min Stack, Daily Temperatures, Evaluate Reverse Polish Notation
+5. **Binary Search**: Binary Search, Search a 2D Matrix, Find Minimum in Rotated Sorted Array
+6. **Linked List**: Reverse Linked List, Merge Two Sorted Lists, Reorder List, Remove Nth Node
+7. **Trees & Graphs**: Invert Binary Tree, Maximum Depth, Level Order Traversal, Number of Islands, Clone Graph
+8. **Dynamic Programming**: Climbing Stairs, Coin Change, Longest Increasing Subsequence, 0/1 Knapsack
+9. **Greedy & Backtracking**: Jump Game, Gas Station, Subsets, Permutations
 
 ---
 
@@ -65,25 +70,29 @@ git clone https://github.com/Bhanu-Sharma-7/Learn-Everything-Problem-Solving.git
 # Navigate into the project root
 cd Learn-Everything-Problem-Solving
 
-# Run Day 1 solution
-node "Day 1 - Two Sum/main.js"
+# Run Problem 1 (Two Sum)
+node "1 - Two Sum/main.js"
+
+# Run Problem 2 (Palindrome Number)
+node "2 - Palindrome Number/main.js"
 ```
 
 ---
 
 ## 📝 Problem Documentation Standard
 
-Each day's folder follows a standardized structure in its `Readme.md`:
+Each problem folder follows a standardized structure in its `README.md`:
 1. **Problem Statement & Metadata**: Official description, constraints, and source links.
 2. **Intuition & Thought Process**: How to think about the problem before writing any code.
 3. **Approaches**:
-   - **Brute Force**: Baseline solution to understand the core logic.
-   - **Optimal Approach**: Production/interview-ready solution using efficient data structures.
+   - **Brute Force / Naive**: Baseline solution to understand the core logic.
+   - **Optimal Approach**: Production/interview-ready solution using efficient data structures or mathematical tricks.
 4. **Complexity Analysis**: Big-O notation for Time and Space.
 5. **Dry Run / Walkthrough**: Step-by-step execution traces with sample inputs.
+6. **Navigation**: Quick links to the previous problem, next problem, and repository index.
 
 ---
 
 ## 📄 License
 
-This repository is licensed under the [MIT License](file:///D:/EveryDay/Learn-Everything-Problem-Solving/LICENSE).
+This repository is licensed under the [MIT License](./LICENSE).

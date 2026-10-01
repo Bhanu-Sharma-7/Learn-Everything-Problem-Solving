@@ -1,6 +1,3 @@
-const nums = [3, 3]
-const target = 6
-
 function twoSum(nums, target) {
     for (var i = 0; i <= nums.length; i++) {
         for (var j = 0; j <= nums.length; j++) {
@@ -12,4 +9,4 @@ function twoSum(nums, target) {
     }
 }
 
-console.log(twoSum(nums, target))
+console.log(twoSum([1, 2, 3, 4], 4))
