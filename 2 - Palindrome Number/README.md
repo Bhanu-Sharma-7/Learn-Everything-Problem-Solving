@@ -4,7 +4,7 @@
 - **Difficulty**: `🟢 Easy`
 - **Topics**: `Math`, `Two Pointers`
 - **Solution File**: [`main.js`](./main.js)
-- **Navigation**: [⬅️ Previous Problem: Two Sum](../1%20-%20Two%20Sum/Readme.md) | [🏠 Problem Index](../Readme.md)
+- **Navigation**: [⬅️ Previous Problem: Two Sum](../1%20-%20Two%20Sum/Readme.md) | [🏠 Problem Index](../Readme.md) | [Next Problem: Roman to Integer ➡️](../3%20-%20Roman%20to%20Integer/README.md)
 
 ---
 
@@ -200,3 +200,4 @@ node main.js
 
 - [⬅️ Previous Problem: Two Sum](../1%20-%20Two%20Sum/Readme.md)
 - [🏠 Repository Index](../Readme.md)
+- [Next Problem: Roman to Integer ➡️](../3%20-%20Roman%20to%20Integer/README.md)

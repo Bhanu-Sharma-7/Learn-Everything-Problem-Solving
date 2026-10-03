@@ -23,6 +23,9 @@ Learn-Everything-Problem-Solving/
 ├── 2 - Palindrome Number/
 │   ├── README.md          # Problem explanation, intuition, approaches & complexity
 │   └── main.js            # JavaScript solution implementation
+├── 3 - Roman to Integer/
+│   ├── README.md          # Problem explanation, intuition, approaches & complexity
+│   └── main.js            # JavaScript solution implementation
 ├── LICENSE                # MIT License
 └── Readme.md              # Main repository index & progress tracker
 ```
@@ -35,6 +38,7 @@ Learn-Everything-Problem-Solving/
 | :---: | :--- | :---: | :---: | :---: | :--- |
 | **01** | [Two Sum](./1%20-%20Two%20Sum/Readme.md) | [LeetCode #1](https://leetcode.com/problems/two-sum/) | `🟢 Easy` | [JavaScript](./1%20-%20Two%20Sum/main.js) | Array, Hash Table, Complement Lookup |
 | **02** | [Palindrome Number](./2%20-%20Palindrome%20Number/README.md) | [LeetCode #9](https://leetcode.com/problems/palindrome-number/) | `🟢 Easy` | [JavaScript](./2%20-%20Palindrome%20Number/main.js) | Math, Revert Half Number, Modulo / Division |
+| **03** | [Roman to Integer](./3%20-%20Roman%20to%20Integer/README.md) | [LeetCode #13](https://leetcode.com/problems/roman-to-integer/) | `🟢 Easy` | [JavaScript](./3%20-%20Roman%20to%20Integer/main.js) | Hash Table, Math, String, Subtractive Notation |
 
 *More daily solutions are added progressively.*
 
@@ -75,6 +79,9 @@ node "1 - Two Sum/main.js"
 
 # Run Problem 2 (Palindrome Number)
 node "2 - Palindrome Number/main.js"
+
+# Run Problem 3 (Roman to Integer)
+node "3 - Roman to Integer/main.js"
 ```
 
 ---
